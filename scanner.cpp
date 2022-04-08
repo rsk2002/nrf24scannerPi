@@ -21,6 +21,7 @@ uint8_t spi_rxbuff[32] ;
 uint8_t spi_txbuff[32+1] ; 
 
 // nRF24L01P registers we need
+// Hello......
 #define _NRF24_CONFIG      0x00
 #define _NRF24_EN_AA       0x01
 #define _NRF24_RF_CH       0x05
